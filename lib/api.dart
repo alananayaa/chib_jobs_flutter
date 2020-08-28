@@ -1,7 +1,7 @@
 import 'dart:async';
 import 'package:http/http.dart' as http;
 
-const baseUrl = 'http://13.66.218.45:5000';
+const baseUrl = 'https://wise-happy-ferryboat.glitch.me';
 
 class API {
   static Future getUsers() {
