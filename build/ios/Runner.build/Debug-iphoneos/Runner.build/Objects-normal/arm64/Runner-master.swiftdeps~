@@ -1,0 +1,5 @@
+version: "Apple Swift version 5.2.4 (swiftlang-1103.0.32.9 clang-1103.0.32.53)"
+options: "2fb3ca3cee6b3938f4564709ae7d541c"
+build_time: [1598650865, 988315000]
+inputs:
+  "/Volumes/Data/aanaya/development/chib_jobs_flutter/ios/Runner/AppDelegate.swift": [1598153429, 624233695]
