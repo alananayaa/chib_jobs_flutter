@@ -9,7 +9,10 @@ import 'api.dart';
 class Dashboard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(title: 'Chib Jobs', debugShowCheckedModeBanner: false,home: WorkersList());
+    return MaterialApp(
+        title: 'Chib Jobs',
+        debugShowCheckedModeBanner: false,
+        home: WorkersList());
   }
 }
 
@@ -38,6 +41,9 @@ class _WorkersList extends State {
                 worker['priceRate']));
           }
         });
+
+        workers.sort((a, b) => a.fullName.compareTo(b.fullName));
+
       });
     });
   }
